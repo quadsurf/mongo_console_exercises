@@ -1,7 +1,7 @@
 ## Mongo Concepts + Console Exercise 
 
 For tonight's assignment, we'd like you to answer a few questions and define a couple terms as well as write the queries necessary to perform the following tasks. You can either fork and clone this readme or create a new one with your solutions.
-You will be using the terminal and the mongo shell for this assignemnt as well as notes/google to answer some of the questions
+You will be using the terminal and the mongo shell for this assignment as well as notes/google to answer some of the questions
 
 
 ## Part I - Conceptual Review 
@@ -33,9 +33,9 @@ Write the queries necessary to perform the following tasks
 
 1. Write the terminal command to start the mongo server
 2. Write the terminal command to enter a mongo shell
-1. show all databases
-1. use the `library` database
-1. show all the collections inside the `library` database
+1. Show all databases
+1. Use the `library` database
+1. Show all the collections inside the `library` database
 1. Using the insert method Add an author with the name of "John", age of 37 
 2. Using the insert method Add another author with the name of "Jane", age of 42 and give her a property of books which is an empty array.
 3. Using the .save() method, find an author with an age greater than or equal to 42 and then change the age to 33. Finally, save that author. 
@@ -44,7 +44,7 @@ Write the queries necessary to perform the following tasks
 2. Find all of the authors but limit the search to one
 3. Find an author whose name is not equal to "John" using the `$ne` operator
 1. Update an author who has a name of "John" and change his name to "James" (without using the set method)
-. Update an author named "James" and using the set operator, set his name back to John and age to 37.
+1. Update an author named "James" and using the set operator, set his name back to John and age to 37.
 2. Delete an author whose name is "John"
 13. Delete all of the authors
 1. Create an author whose name is "John" and has an empty array of books
