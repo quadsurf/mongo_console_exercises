@@ -38,7 +38,7 @@ Write the queries necessary to perform the following tasks
 1. Show all the collections inside the `library` database
 1. Using the insert method Add an author with the name of "John", age of 37 
 2. Using the insert method Add another author with the name of "Jane", age of 42 and give her a property of books which is an empty array.
-3. Using the .save() method, find an author with an age greater than or equal to 42 and then change the age to 33. Finally, save that author. 
+3. Use `findOne` to select an author with an age greater than or equal to 42. Change that authors age to 33, then use the save method to persist the change.
 1. Find all of the authors
 1. Find an author with the name of John
 2. Find all of the authors but limit the search to one
