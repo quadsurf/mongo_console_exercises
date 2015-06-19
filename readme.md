@@ -51,7 +51,7 @@ Write the queries necessary to perform the following tasks
 2. Update John and Using the `$push` operator add the string "Of Mice and Men" into the books array.
 2. Update John and using the `$push` and `$each` operators add the strings "Grapes of Wrath", "The Pearl", "East of Eden", "50 Shades of Gray" into the books array.
 17. Sorry - John Steinbeck didn't write 50 Shades of Gray, using the `$pull` operator, remove that book from the array.
-18. Finally, using the `$in` operator, update an author who has a book "Of Mice and Men" and "The Pearl" in the books array and change their name to "John Steinbeck"
+18. Finally, using the `$in` operator, update an author who has a book "Of Mice and Men" or "The Pearl" in the books array and change their name to "John Steinbeck"
 
 
 
